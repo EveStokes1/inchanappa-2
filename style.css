@@ -1,0 +1,148 @@
+
+
+body {
+    margin:0;
+    font-family:arial;
+    background-color:lightcyan;
+}
+
+header {
+    background-color:lightcyan;
+    padding:10px;
+}
+
+nav {
+    background-color:#52b2bf;
+    border-style: double;
+    border-color:black;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    padding:14px;
+    text-decoration:none;
+}
+
+nav a:active {
+    background-color:cyan;
+}
+
+.place { 
+  position: relative;   
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.place img {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.5;
+  width: 900px;
+  height: 450px;
+
+}
+
+.overlay-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 900px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.next-heading {
+  text-align: center;
+  color:#52b2bf;
+  font-family:"serif";
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 80%;
+  padding-left:170px;
+}
+
+.gallery img {
+  width: 100%;
+  display: block;
+}
+
+.footer {
+  background-color:#52b2bf;
+  border-style: double;
+  border-color: black;
+  padding: 15px;
+  gap: 60px;
+  text-align: center;
+  margin-top:40px;
+}
+
+.footer-item {
+  color: white;
+}
+
+.chestnut img {
+  width:600px;
+  height:400px;
+  float:right;
+  margin-left:40px;
+  padding-right:340px;
+}
+
+
+.story-heading {
+  color:#52b2bf;
+  font-family:"serif";
+  margin-left:290px;
+
+}
+
+.story-text {
+  margin-left:290px;
+  font-size:x-large;
+  margin-bottom:120px;
+  max-width:600px;
+  color:navy;
+}
+
+.mission-text {
+  margin-left:290px;
+  font-size:x-large;
+  max-width:600px;
+  margin-bottom:130px;
+  color:navy;
+}
+
+.map {
+  padding-left:290px;
+  padding-top:20px;
+  float:left;
+  padding-right:50px;
+}
+
+.location {
+	color:navy;
+}
+
+.lesson img {
+  width:550px;
+  height:410px;
+  float:right;
+  margin-left:40px;
+  padding-right:340px;
+  padding-bottom:40px;
+}
+
+.list {
+	margin-left:290px;
+}
+
